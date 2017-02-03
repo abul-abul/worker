@@ -1,0 +1,105 @@
+.sign-up {
+  background: #efefef;
+}
+.sign-up .nav-tabs {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.sign-up .nav-tabs li a {
+  color: #3C3D41;
+}
+.sign-up .nav-tabs li.active a {
+  color: #5CB85C;
+}
+.sign-up .input-group {
+  width: 100%;
+}
+.sign-up .input-group span {
+  display: block;
+  height: 34px;
+  width: 30%;
+  float: left;
+  line-height: 19px;
+}
+.sign-up .input-group #form-provider-mobile, .sign-up .input-group #form-mobile {
+  width: 70%;
+  float: left;
+}
+
+.sign-up .container .sign-up-popup {
+  background: #fff;
+  padding: 20px 0;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+@media (max-width: 991px) {
+  .sign-up .container .sign-up-popup {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .sign-up .container .sign-up-popup {
+    margin-top: 30px;
+  }
+}
+.sign-up .container .sign-up-popup .sign-up-top {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 10px;
+}
+.sign-up .container .sign-up-popup .sign-up-top .row {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.sign-up .container .sign-up-popup .sign-up-bottom {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sign-up .container .sign-up-popup .sign-up-bottom h5 {
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  padding: 20px 0;
+}
+.sign-up .container .sign-up-popup .terms-agreement {
+  padding: 10px 0;
+}
+.sign-up .container .sign-up-popup img {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+.sign-up .container .sign-up-popup h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.sign-up .container .sign-up-popup input {
+  margin-bottom: 10px;
+  background: #efefef;
+}
+.sign-up .container .sign-up-popup select {
+  margin-bottom: 10px;
+  background: #efefef;
+  color: #9b9b9b;
+  appearence: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  cursor: pointer;
+  background-image: url(../img/select-caret-simple.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.sign-up .container .sign-up-popup select::-ms-expand {
+  display: none;
+}
+.sign-up .container .sign-up-popup .button-signup {
+  clear: both;
+  padding-top: 10px;
+}
+.sign-up .container .sign-up-popup .button-signup button {
+  padding-left: 30px;
+  padding-right: 30px;
+}

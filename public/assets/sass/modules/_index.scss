@@ -1,0 +1,90 @@
+/* CONTENT */
+
+.content {
+    margin-bottom: 50px;
+}
+
+.content h4 {
+    font-size: 36px;
+    text-align: center;
+    color: $blue;
+    margin-top: 30px;
+}
+
+.content-choose-type {
+    margin-top: 30px;
+}
+
+.content-choose-type a {
+    text-decoration: none;
+}
+
+.content-choose-type a:hover {
+    color: #000;
+}
+
+.seekers {
+    background: url('../img/seeker%20icon.png') no-repeat right top;
+    height: 120px;
+    text-align: right;
+    position: relative;
+}
+
+.seekers a {
+    display: block;
+    color: $gr;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    right: 8px;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 22px;
+    padding-top: 100px;
+}
+
+.providers {
+    background: url('../img/Provider%20icon.png') no-repeat left top;
+    height: 120px;
+    position: relative;
+}
+
+.providers a {
+    display: block;
+    color: $gr;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 22px;
+    padding-top: 100px;
+}
+
+.active-type a {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.content-thumbnails {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.caption {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+@media (max-width: 480px) {
+    .header-bottom .container .col-ms-4:nth-child(2) {
+        margin: 20px 0;
+    }
+}
+
+
+
+

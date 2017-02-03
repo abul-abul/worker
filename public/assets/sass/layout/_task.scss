@@ -1,0 +1,63 @@
+.task {
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 40px;
+    
+    h4 {
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 14px;
+        padding: 20px 0 20px 20px;
+        border-bottom: 2px solid $bggray;
+    }
+    
+    .task-content {
+        padding: 10px 20px 0 0;
+        min-height: 120px;
+        
+        img {
+            float: left;
+            width: 25%;
+            margin-left: 20px;
+            max-width: 90px;
+        }
+        
+        h5 {
+            font-size: 14px;
+            color: $gr;
+            text-transform: uppercase;
+            float: right;
+            width: 65%;
+        }
+        
+        p {
+            float: right;
+            width: 65%;
+            padding-left: 25px;
+            letter-spacing: 1.5px;
+        }
+        
+        p.location {
+            background: url('../img/tasks/Location.png') no-repeat left top;
+        }
+        
+        p.time {
+            background: url('../img/tasks/Time.png') no-repeat left top;
+        }
+    }
+    
+    .btn {
+        clear: both;
+        border-radius: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 20px;
+    }
+}
+
+.tasks {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

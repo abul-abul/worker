@@ -1,0 +1,58 @@
+/* HEADER CONTENT */
+
+.header-content {
+    background: $blue;
+    padding-bottom: 30px;
+
+    h3 {
+        float: left;
+        margin: 0;
+        color: #fff;
+        margin-top: 35px;
+    }
+    
+    ul li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    ul a {
+        color: #fff;
+    }
+
+    ul {
+        float: right;
+        margin-top: 40px;
+        padding: 0;
+    }
+    
+    .search {
+        max-width: 350px;
+        float: left;
+        margin-top: 25px;
+        margin-left: 50px;
+        
+        input {
+            height: 45px;
+            border-top-left-radius: 7px;
+            border-bottom-left-radius: 7px;
+            background: $bggray;
+        }
+        
+        button {
+            height: 45px;
+            border-top-right-radius: 7px;
+            border-bottom-right-radius: 7px;
+        }
+    }
+
+    @media (max-width: 620px) {
+        .search {
+            clear: both;
+            float: right;
+            margin-left: 0;
+        }
+    }
+}
+
+

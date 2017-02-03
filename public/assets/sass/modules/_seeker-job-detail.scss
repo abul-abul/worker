@@ -1,0 +1,61 @@
+.task-questions {
+  letter-spacing: 1.3px;
+  
+  .question {
+    border-top: 2px solid $bggray;
+    padding: 15px 30px;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.service-providers {
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 40px;
+  
+  h4 {
+    margin: 0;
+    font-size: 14px;
+    padding: 20px;
+    border-bottom: 2px solid $bggray;
+    letter-spacing: 1.5px;
+  }
+  
+  .provider {
+    padding: 20px 30px 10px 30px;
+    border-bottom: 2px solid $bggray;
+    
+    .userpic {
+      width: 35%;
+      float: left;
+      cursor: pointer;
+    }
+    
+    .description {
+      float: left;
+      width: 65%;
+      p {
+        margin-bottom: 20px;
+      }
+    }
+    
+    .price-location {
+      text-align: right;
+      @media (max-width: 768px) {
+        text-align: left;
+      }
+      h5 {
+        margin: 0;
+        margin-bottom: 10px;
+      }
+      img {
+        margin-bottom: 10px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

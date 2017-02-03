@@ -1,0 +1,64 @@
+.contacts header {
+  min-height: 50px;
+  background-color: #e3e3e3;
+  text-align: right;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  position: relative;
+  z-index: 999;
+}
+.contacts header .logo {
+  margin-top: 12px;
+}
+.contacts header button {
+  margin-top: 10px;
+  margin-right: 0;
+  padding: 5px 15px;
+}
+@media (max-width: 767px) {
+  .contacts header button:first-of-type {
+    margin-left: 0;
+  }
+}
+.contacts .content {
+  margin: 0 auto;
+  padding: 30px 0;
+}
+@media (min-width: 992px) {
+  .contacts .content {
+    max-width: 80%;
+    padding: 60px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .contacts .content {
+    max-width: 60%;
+    padding: 80px 0;
+  }
+}
+.contacts .content h4 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.contacts .content p {
+  font-size: 18px;
+}
+.contacts .contact-form {
+  margin-top: 30px;
+}
+.contacts .contact-form input, .contacts .contact-form textarea {
+  width: 100%;
+  resize: none;
+  margin-bottom: 30px;
+  background: #F0F0F0;
+  border: 1px solid #BCBCBC;
+  font-size: 18px;
+  border-radius: 2px;
+}
+.contacts .contact-form input {
+  height: 50px;
+  padding: 0 10px;
+}
+.contacts .contact-form textarea {
+  padding: 10px;
+}

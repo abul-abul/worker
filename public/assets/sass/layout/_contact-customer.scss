@@ -1,0 +1,49 @@
+.contact-customer {
+    background: #fff;
+    border-radius: 4px;
+    letter-spacing: 1.5px;
+    
+    ul {
+        padding: 0;
+        margin: 0;
+        margin-left: 30px;
+    }
+    
+    ul li {
+        display: inline-block;
+        line-height: 50px;
+    }
+    
+    a.contact-phone {
+        background: url('../img/tasks/Phone.png') no-repeat left;
+    }
+    a.contact-email {
+        background: url('../img/tasks/Email.png') no-repeat left;
+        margin-left: 20px;
+    }
+    a.save-request {
+        background: url('../img/tasks/save.png') no-repeat left;
+        margin-left: 20px;
+    }
+    
+    ul a {
+        font-size: 14px;
+        color: #000;
+        text-decoration: none;
+        padding: 10px 0 10px 30px;
+    }
+    
+    ul a:hover {
+        color: $blue;
+    }
+    
+    @media (max-width: 510px) {
+        ul li {
+            display: block;
+        }
+        
+        a.contact-email, a.save-request {
+            margin-left: 0;
+        }
+    }
+}

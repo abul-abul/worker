@@ -1,0 +1,26 @@
+.modal-window {
+  
+  .modal-header {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    img {
+      margin-left: 10px;
+    }
+    .modal-title {
+      margin-top: 5px;
+    }
+    .number {
+      color: $green;
+    }
+  }
+  .modal-body {
+    
+  }
+  .modal-footer {
+    border-top: none;
+    text-align: center;
+    .btn {
+      padding: 6px 50px;
+    }
+  }
+}

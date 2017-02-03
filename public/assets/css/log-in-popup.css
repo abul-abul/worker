@@ -1,0 +1,61 @@
+#loginModal {
+  padding-top: 120px;
+  text-align: center;
+}
+#loginModal .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#loginModal .modal-content {
+  padding: 20px 0;
+}
+#loginModal .nav-tabs {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+#loginModal .nav-tabs li a {
+  color: #3C3D41;
+}
+#loginModal .nav-tabs li.active a {
+  color: #5CB85C;
+}
+#loginModal .log-in-popup {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#loginModal .log-in-popup .checkbox {
+  text-align: left;
+}
+#loginModal #signup-tab input, #loginModal #signup-tab select {
+  margin-bottom: 10px;
+  background: #efefef;
+}
+#loginModal #signup-tab .input-group {
+  width: 100%;
+}
+#loginModal #signup-tab .input-group span {
+  display: block;
+  height: 34px;
+  width: 30%;
+  float: left;
+  line-height: 19px;
+}
+#loginModal #signup-tab .input-group #form-mobile {
+  width: 70%;
+  float: left;
+}
+#loginModal #signup-tab .sign-up-top {
+  padding: 0 20px;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 20px;
+}
+#loginModal #signup-tab .sign-up-bottom {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#loginModal #signup-tab .sign-up-bottom h5 {
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  padding: 20px 0;
+}

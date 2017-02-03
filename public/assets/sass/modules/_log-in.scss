@@ -1,0 +1,89 @@
+.log-in {
+  background: $bggray;
+  
+  .container {
+    
+    .log-in-popup {
+      background: #fff;
+      padding: 20px;
+      position: relative;
+      text-align: center;
+      border-radius: 4px;
+      margin-top: 200px;
+      margin-bottom: 283px;
+      
+      @media (max-width: 991px) {
+        margin-top: 100px;
+        margin-bottom: 150px;
+      }
+      
+      @media (max-width: 767px) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      
+      p, a {
+        font-size: 12px;
+      }
+      
+      img {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+      
+      h4 {
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+      
+      input {
+        margin-bottom: 10px;
+        background: $bggray;
+        padding-left: 35px;
+      }
+      
+      #form-username {
+        background-image: url(../img/User%20Icon.png);
+        background-repeat: no-repeat;
+        background-position: 10px center;
+      }
+      
+      #form-password {
+        background-image: url(../img/Pass%20Icon.png);
+        background-repeat: no-repeat;
+        background-position: 10px center;
+      }
+      
+      .forgot-password {
+        float: left;
+      }
+      
+      .no-account {
+        float: right;
+        margin-top: 3px;
+        
+        p {
+          float: left;
+          color: $gr;
+          margin: 0;
+        }
+        
+        a {
+          margin-left: 10px;
+          float: right;
+        }
+      }
+      
+      .button-login {
+        clear: both;
+        padding-top: 10px;
+        
+        button {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+      }
+    }
+  }
+}

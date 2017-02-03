@@ -1,0 +1,134 @@
+.my-account {
+    background: $bggray;
+    padding-bottom: 100px;
+  
+  .account-responds {
+    margin-top: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    p {
+      float: left;
+      font-size: 16px;
+      color: #000;
+      letter-spacing: 1.5px;
+      
+        @media (max-width: 430px) {
+          float: none;
+        }
+    }
+    
+    a {
+      margin-left: 40px;
+      color: $green;
+      font-size: 16px;
+      
+        @media (max-width: 430px) {
+          margin-left: 0;
+        }
+    }
+  }
+  
+  .account-histograms {
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 4px;
+    
+    .histogram {
+      #canvas {
+        padding: 20px;
+        
+        @media (max-width: 500px) {
+          padding: 0 10px;
+        }
+      }
+    }
+    
+    h4 {
+      margin: 0;
+      font-size: 14px;
+      padding: 20px;
+      border-bottom: 2px solid $bggray;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+  }
+  
+  .account-rating {
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1.5px;
+    width: 70%;
+    
+      @media (max-width: 991px) {
+          width: 100%;
+        }
+    
+    p img {
+      margin-left: 5%;
+    }
+  }
+  
+  .account-reviews {
+    clear: both;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    
+    h4 {
+      margin: 0;
+      font-size: 14px;
+      padding: 20px;
+      border-bottom: 2px solid $bggray;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+    
+    .request-name {
+      
+      p, h5 {
+        margin-left: 15px;
+      
+      @media (max-width: 500px) {
+        margin-left: 0;
+      }
+      }
+    }
+    
+    .request-line {
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-bottom: 1px solid $bggray;
+            
+      .date-location {
+        text-align: right;
+        
+        img {
+          margin: 10px 0;
+        }
+                
+      h5 {
+        color: $blue;
+      }
+                
+        @media (max-width: 479px) {
+          text-align: left;
+        }
+      }
+    }
+        
+    .constant-client {
+        background: #fff;
+            
+        .request-name label, .request-info h5 {
+            font-weight: 700;
+        }
+    }
+  }
+}
